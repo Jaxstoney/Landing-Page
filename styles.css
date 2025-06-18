@@ -1,21 +1,19 @@
 body {
   font-family: 'Roboto', sans-serif; 
+  margin: 0;
 }
 
-body {
-    margin: 0;
-}
 
 .top-container {
     background-color: #1F2937;
     border: 0 solid  #1F2937;
     display: flex;
     justify-content: center;
-    height: 475px
+    height: 525px
 }
 
 .container {
-    width: 900px;
+    width: 1000px;
     height: 300px;
 }
 
@@ -50,7 +48,7 @@ a {
 .container-1 {
     display: flex;
     flex-direction: row;
-    margin-top:75px;
+    margin-top:125px;
     gap: 10px;
 }
 
@@ -91,7 +89,7 @@ button {
 }
 
 .heading {
-    margin-top: 25px;
+    margin-top: 75px;
     display: flex;
     justify-content: center;
     font-size: xx-large;
@@ -109,8 +107,8 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    height: 375px;
+    gap: 75px;
+    height: 379px;
 }
 
 .info-boxes {
@@ -121,4 +119,74 @@ button {
 
 .third-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 525px;
+    background-color: #E5E7EB;
+}
+
+.quote-container {
+    width: 700px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.author {
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.fourth-container {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    width: 1075px;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-2 {
+    margin-left: 100px;
+}
+
+.action {
+    font-size: larger;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.product-sign-up {
+    color: #E5E7EB;
+}
+
+.sign-up-2 {
+    height: 35px;
+    width: 105px;
+    margin-right: 100px;
+    border: 3px solid #F9FAF8;
+    color: #F9FAF8;
+}
+
+.last-container {
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 20px;
 }
